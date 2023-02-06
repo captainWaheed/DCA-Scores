@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+// Experimental Score Card
+
 const CardSlider = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
