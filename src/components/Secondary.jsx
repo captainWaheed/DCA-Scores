@@ -1,9 +1,3 @@
-const links = [
-  { name: "Open roles", href: "#" },
-  { name: "Internship program", href: "#" },
-  { name: "Our values", href: "#" },
-  { name: "Meet our leadership", href: "#" },
-];
 const stats = [
   { name: "Live Matches", value: "2" },
   { name: "Leagues", value: "12" },
