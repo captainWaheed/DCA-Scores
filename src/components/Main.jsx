@@ -1,23 +1,26 @@
-import React from "react";
 import Card from "./Card";
+import Cardslider from "./Cardslider";
 
 const Main = () => {
   return (
-    <main>
+    <main className="overflow-hidden">
       <section className="py-10 bg-gray-50 sm:py-16 lg:py-18">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="max-w-2xl mx-auto text-center">
-            <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
-              Live Matches
-            </h2>
-            <p className="max-w-md mx-auto mt-4 text-base leading-relaxed text-gray-600">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequat duis.
+            <h1 className="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
+                LIVE
+              </span>{" "}
+              Matches
+            </h1>
+            <p className="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+              amet.
             </p>
           </div>
         </div>
       </section>
-      <Card />
+      <Cardslider />
     </main>
   );
 };
