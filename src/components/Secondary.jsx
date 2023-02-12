@@ -1,6 +1,6 @@
 const stats = [
   { name: "Live Matches", value: "2" },
-  { name: "Leagues", value: "12" },
+  { name: "Leagues", value: "13" },
   { name: "lorem", value: "40" },
   { name: "ipsum", value: "32" },
 ];
