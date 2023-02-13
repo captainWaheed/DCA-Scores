@@ -2,15 +2,13 @@ import React from "react";
 
 const Leaderboard = () => {
   return (
-    <section className="bg-gray-50 dark:bg-gray-900 p-3 sm:p-5">
-      <h1 class="text-4xl font-bold dark:text-white py-2">
-        Leaderboard
-        <small class="ml-2 font-semibold text-gray-500 dark:text-gray-400">
-          Team Standings
-        </small>
-      </h1>
+    <section className="bg-gray-50 dark:bg-gray-900 p-4 sm:p-5">
+      <h1 class="text-4xl  font-bold dark:text-white py-2">Leaderboard</h1>
+      <small class="text-4xl dark:text-white ml-0 font-semibold text-gray-500 dark:text-gray-400">
+        Team Standings
+      </small>
 
-      <div className="mx-auto max-w-screen-xl px-4 lg:px-12">
+      <div className="mx-auto max-w-screen-xl px-4 py-3 lg:px-12">
         <div className="bg-white dark:bg-gray-800 relative shadow-md sm:rounded-lg overflow-hidden">
           <div className="flex flex-col md:flex-row items-center justify-between space-y-3 md:space-y-0 md:space-x-4 p-4">
             <div className="w-full md:w-1/2">

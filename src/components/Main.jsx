@@ -1,9 +1,8 @@
-import Card from "./Card";
 import Cardslider from "./Cardslider";
 
 const Main = () => {
   return (
-    <main className="overflow-hidden">
+    <main className="overflow-x-hidden">
       <section className="py-10 bg-gray-50 sm:py-16 lg:py-18">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="max-w-2xl mx-auto text-center">

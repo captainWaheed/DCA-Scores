@@ -3,6 +3,7 @@ import Footer from "./components/Footer";
 import Leaderboard from "./components/Leaderboard";
 import Main from "./components/Main";
 import Navbar from "./components/Navbar";
+import Players from "./components/Players";
 import Secondary from "./components/Secondary";
 
 const App = () => (
@@ -10,6 +11,7 @@ const App = () => (
     <Navbar />
     <Main />
     <Leaderboard />
+    <Players />
     <Secondary />
     <Footer />
   </>
